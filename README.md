@@ -1,4 +1,4 @@
-# 🚀 Live E-Commerce Business Intelligence Dashboard
+#  Live E-Commerce Business Intelligence Dashboard
 
 Bu proje, bir E-Ticaret sitesindeki "Canlı Sipariş Akışını" simüle eden bir **Veri Boru Hattı (Data Pipeline)** ve bu verileri saniyelik olarak işleyip analiz eden modern, C-Level **Kurumsal İş Zekası (BI) arayüzünü** içerir. 
 
@@ -6,7 +6,7 @@ Bu proje, bir E-Ticaret sitesindeki "Canlı Sipariş Akışını" simüle eden b
 
 ---
 
-## 💼 Proje Amacı (Business Case)
+##  Proje Amacı (Business Case)
 Geleneksel "statik" veri analizleri yöneticiler için yeterli değildir. Şirketler, şu an sistemlerine ne kadar para aktığını, kâr oranlarını ve siparişlerin "anlık" kırılımını görmek isterler.
 
 Bu projenin çözüm ürettiği temel problemler:
@@ -17,7 +17,7 @@ Bu projenin çözüm ürettiği temel problemler:
 
 ---
 
-## 🛠️ Kullanılan Teknolojiler ve Mimari
+##  Kullanılan Teknolojiler ve Mimari
 
 1. **Python `live_ecommerce_bot.py` (Data Engineering)**: Sistem bu script çalışırken rastgele sipariş sepetleri, bölgeler, kategoriler ve saatler belirler; bu veriyi sonsuz bir döngüde ana CSV'ye yükler (Streaming). 
 2. **Pandas & NumPy (Data Processing)**: Akan veriler saniyelik okur; tarih/zaman kurguları dönüştürülür, her sektöre özgün kâr marjı (Giyim: %40, Elektronik: %15 vb.) çarpılarak brüt hesabı net kara çevrilir.
@@ -26,7 +26,7 @@ Bu projenin çözüm ürettiği temel problemler:
 
 ---
 
-## ⚙️ Kendi Bilgisayarınızda (Lokal) Çalıştırma
+##  Kendi Bilgisayarınızda (Lokal) Çalıştırma
 
 Projeyi test etmek için aşağıdaki adımları sırayla uygulayın:
 
@@ -64,3 +64,4 @@ Tarayıcınızda otomatik olarak otonom Web Yönetim Paneliniz `localhost:8501` 
 - [x] Bölge ve Kâr Optimizasyonu Grafikleri
 
 > *B.T tarafından Management Information Systems (MIS) / Data Science Portfolio projesi olarak geliştirilmiştir.*
+
